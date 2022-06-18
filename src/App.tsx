@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import { Button } from "./components/Button/Button";
 import { EmojiContainer } from './components/EmojiContainer/EmojiContainer';
-import {User} from "./components/User/User"
+import { Navbur } from './components/Navbar/Navbur';
+import { Title } from './components/Title/Title';
+import { User } from "./components/User/User"
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
        <Button disabled={true} text = "" type={"primary"}/>
       </div>
       <EmojiContainer />
+      <Title/>
+      <Navbur/>
     </div>
   );
 }
