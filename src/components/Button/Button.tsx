@@ -1,10 +1,12 @@
 import styles from './index.module.css'
+import React from 'react';
+
 
 
 interface IProps{
-    text:string;
+    text?:string;
     disabled: boolean;
-    type?: "primary" | "secondary";
+    type?: "primary" | "secondary" | "danger";
 }
 
 export const Button = (props: IProps)=>{
