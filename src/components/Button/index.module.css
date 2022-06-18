@@ -1,0 +1,17 @@
+.button {
+  width: 4em;
+  height: 4em;
+  margin: 1rem;
+}
+
+.secondary {
+  background: black;
+}
+
+.disabled {
+  background: #4287f5;
+}
+
+.primary {
+    background: #74a7f7;
+  }
